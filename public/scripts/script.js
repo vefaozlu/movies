@@ -16,7 +16,7 @@ const search = document.getElementById("search");
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
-  //  doc.innerHTML = "";
+  /* doc.innerHTML = ""; */
 
   const searchTerm = search.value;
 
@@ -33,10 +33,12 @@ form.addEventListener("submit", (e) => {
       }); */
 
     window.location.replace(
-      "http://192.168.0.21:3000/movies/search?q=" + searchTerm
+      "http://localhost:3000/movies/search?q=" + searchTerm
     );
 
     search.value = "";
+
+    return false;
   } else {
     window.location.href("");
   }
