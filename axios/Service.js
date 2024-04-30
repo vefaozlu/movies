@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // API Key
-const apiKey = "";
+const apiKey = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI5MWQ4NTI4ZTBlZmEyOTk3NDFiOTY5ZjQ2M2ZhYjY1OSIsInN1YiI6IjYwZjUxNmM4NjZhMGQzMDA1ZTU2MTAyNyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.JcAO5JZ6ciiOHcGcR0ibCILgNQ8KbprLpn1k8AnLTNA";
 
 // Enum for HTTP methods
 export const HttpMethod = {
